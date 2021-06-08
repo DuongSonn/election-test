@@ -1,0 +1,27 @@
+{
+  "name": "electron-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DuongSonn/election-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DuongSonn/election-test/issues"
+  },
+  "homepage": "https://github.com/DuongSonn/election-test#readme",
+  "devDependencies": {
+    "electron": "^13.1.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.1",
+    "jquery": "^3.6.0"
+  }
+}

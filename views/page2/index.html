@@ -1,0 +1,38 @@
+<!--index.html-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link rel="stylesheet" href="../style.css">
+    <title>Hello World!</title>
+</head>
+
+<body>
+    <div id="content">
+        <form>
+            <label for="fname">Question 2:</label><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Enim animi aperiam neque voluptas itaque, ut pariatur
+            </p>
+            <div id="question">
+                <input type="radio" id="answer-1" name="answer" value="1">
+                <label for="answer-1">Answer 1</label><br>
+                <input type="radio" id="answer-2" name="answer" value="2">
+                <label for="answer-2">Answer 2</label><br>
+                <input type="radio" id="answer-3" name="answer" value="3">
+                <label for="answer-3">Answer 3</label><br>
+                <input type="radio" id="answer-4" name="answer" value="4">
+                <label for="answer-4">Answer 4</label>
+            </div>
+        </form>
+        <button><a href="../page1/index.html">Previous</a></button>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
