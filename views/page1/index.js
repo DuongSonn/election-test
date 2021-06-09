@@ -6,7 +6,7 @@ document.getElementById('answer-1').onclick = () => {
     ipcRenderer.send('answer', {
         value: 1,
         id: 1,
-    })
+    });
 }
 document.getElementById('answer-2').onclick = () => {
     ipcRenderer.send('answer', {
@@ -25,4 +25,9 @@ document.getElementById('answer-4').onclick = () => {
         value: 4,
         id: 1,
     })
+}
+window.onload = () => {
+    ipcRenderer.send('load', {
+        id: 1
+    });
 }

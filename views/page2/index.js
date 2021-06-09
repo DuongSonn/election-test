@@ -26,3 +26,13 @@ document.getElementById('answer-4').onclick = () => {
         id: 2,
     })
 }
+
+window.onload = () => {
+    ipcRenderer.send('load', {
+        id: 2
+    });
+}
+
+document.getElementsByClassName('next-btn')[0].onclick = () => {
+    ipcRenderer.send('end');
+}
